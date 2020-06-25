@@ -7,8 +7,6 @@ dependencies:
   react-dom: 16.13.1_react@16.13.1
   react-router-dom: 5.2.0_react@16.13.1
   react-scripts: 3.4.1
-devDependencies:
-  pnpm: 5.2.6
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.3:
@@ -8194,13 +8192,6 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
-  /pnpm/5.2.6:
-    dev: true
-    engines:
-      node: '>=10.13'
-    hasBin: true
-    resolution:
-      integrity: sha512-7PFzPm0l14hzio59fufxpGgWRcMmtC2JZmYbRdkrJmm/f4iExXFhGklB/IrdQidhTi5helNZrBY48/9Ows4naA==
   /popmotion/9.0.0-beta-8:
     dependencies:
       '@popmotion/easing': 1.0.2
@@ -11673,7 +11664,6 @@ specifiers:
   '@testing-library/react': ^9.5.0
   '@testing-library/user-event': ^7.2.1
   framer-motion: ^1.11.1
-  pnpm: ^5.2.6
   react: ^16.13.1
   react-dom: ^16.13.1
   react-router-dom: ^5.2.0
