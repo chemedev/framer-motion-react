@@ -1,4 +1,5 @@
 {
+  "prebuild": "[[ $CI = true ]] && npx pnpm@3 install -r --store=node_modules/.pnpm-store || echo skiping pnpm install",
   "name": "pizzajoint",
   "version": "0.1.0",
   "private": true,
