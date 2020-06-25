@@ -67,10 +67,16 @@ header .title {
   margin-left: 20px;
   font-size: 0.6em;
 }
+
 header h1 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 10px;
 }
+
+header h1:hover {
+  border-bottom: 1px  solid rgba(255,255,255, 1);
+}
+
 header .pizza-svg {
   width: 80px;
   overflow: visible;
@@ -78,6 +84,7 @@ header .pizza-svg {
   stroke-width: 4;
   stroke-linejoin: round;
   stroke-linecap: round;
+  cursor: grabbing;
 }
 
 /* lists */
@@ -112,4 +119,46 @@ li span.active::before {
 }
 .order p {
   margin: 20px auto;
+}
+
+/* modal */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.modal {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.modal button {
+  color: #444444;
+  border-color: #444444;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.modal p {
+  color: #444444;
+  font-weight: bold;
+}
+
+/* loader */
+.loader {
+  width: 10px;
+  height: 10px;
+  margin: 40px auto;
+  border-radius: 50%;
+  background-color: #fff
+}
+
+.loader + div {
+  cursor: pointer;
 }
